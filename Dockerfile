@@ -11,3 +11,5 @@ COPY workers.properties /etc/httpd/conf.d/
 COPY mod_jk.conf /etc/httpd/conf.d/
 
 COPY images /opt/app-root/src/images
+
+COPY samsung.jpg /opt/app-root/src/samsung.jpg
