@@ -10,4 +10,4 @@ COPY workers.properties /etc/httpd/conf.d/
 
 COPY mod_jk.conf /etc/httpd/conf.d/
 
-COPY images /opt/rh/httpd24/root/var/www/images
+COPY images /opt/rh/httpd24/root/var/www/html/images
